@@ -1,3 +1,0 @@
-Body 		- HTML
-Looks 		- CSS 
-Brain		- JavaScript
