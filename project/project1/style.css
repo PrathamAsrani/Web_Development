@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 05px;
+}
+
+header{
+    background-color: #313552;
+    height: 100vh;
+}
+
+#nav{
+    display: flex; /*flex is used to arrange the elements in main axis (i.e. x - axis)*/
+    justify-content: space-between;/*space between used to create max space between elements*//**/
+    /* width: 1000px; */
+}
+
+#left_nav{
+    display: flex;
+}
+
+#contact{
+    /* padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px; */
+    padding: 5px 10px;/*used to show the different colour in nearby pixel*/
+    border: 3px #8b94db solid;
+    background-color: #2eb086;
+    font-weight: 900;/*make bold*/
+    color: aliceblue;
+}
