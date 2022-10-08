@@ -1,22 +1,41 @@
 * {
     margin: 0px;
     padding: 05px;
+    font-family: 'Poppins';
+}
+
+#links a{
+    color: ghostwhite;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
 
 header{
     background-color: #313552;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 86%);
 }
 
 #nav{
     display: flex; /*flex is used to arrange the elements in main axis (i.e. x - axis)*/
     justify-content: space-between;/*space between used to create max space between elements*//**/
     /* width: 1000px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    
+    
 }
 
 #left_nav{
     display: flex;
+    align-items: center;
+    
 }
+
+
 
 #contact{
     /* padding-left: 10px;
