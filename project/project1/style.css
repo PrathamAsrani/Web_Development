@@ -4,12 +4,18 @@
     font-family: 'Poppins';
 }
 
-#links a{
+
+/* header part */
+a{
     color: ghostwhite;
     text-decoration: none;
     margin-right: 10px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #2eb086;
 }
 
 header{
@@ -37,6 +43,7 @@ header{
 
 
 
+
 #contact{
     /* padding-left: 10px;
     padding-top: 5px;
@@ -47,4 +54,61 @@ header{
     background-color: #2eb086;
     font-weight: 900;/*make bold*/
     color: aliceblue;
+    transition: 0.3s;
 }
+
+#contact:hover{
+    background-color: #313552;
+    color: #2eb086;
+}
+
+
+/* header part*/
+
+/* main part */
+main{
+    margin-left: 20px;
+    margin-right: 400px;
+    align-items: center;
+}
+
+
+#name{
+    color: #2eb086;
+}
+
+#Content{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+#Content h4{
+    color: crimson;
+}
+
+#right_main{
+    color: aliceblue;
+    text-align: right;
+}
+p{
+    width: 150px;
+    margin-left: 300px;
+}
+
+#resume{
+    border: 2px solid azure;
+    background-color: cyan;
+    color: black;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+
+#resume:hover{
+    background-color: black;
+    color: aqua;
+}
+
+
+/* main part */
