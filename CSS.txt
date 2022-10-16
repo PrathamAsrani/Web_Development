@@ -1,0 +1,10 @@
+css clip path maker
+google fonts
+lorem - garbage para
+MDN CSS Reference
+COLOR :
+	1. RGB COLOR
+	2. HEX COLOR
+	3. HSL COLOR
+
+axios is an easy way to work with API
