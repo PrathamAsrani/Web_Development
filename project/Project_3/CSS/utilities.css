@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fuzzy+Bubbles&family=Roboto+Mono:ital,wght@1,300&display=swap');
+/*Footer*/
+
+#flex-all-center {
+    /*   this is used to make flexbox to the container (not applicable on elements) along with make there content to align ibn middle   */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Footer*/
+
+
+/*Header*/
+nav .link {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5em;
+}
+
+.contact button {
+    padding: 0.7em 1.4em;
+    font-size: 0.7em;
+    font-weight: 900;
+    border: 2px solid black;
+    transition: 0.6s;
+}
+
+.contact button:hover {
+    color: aliceblue;
+    background-color: #655B6C;
+}
+
+
+#btn {
+    border: 2px solid black;
+    transition: 0.6s;
+    margin: 0 0 0 1em;
+    background-color: #2874f0;
+    padding: 0 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: aliceblue;
+    background-color: #655B6C;
+}
+
+#search_box {
+    width: 35vw;
+    height: 2.5vh;
+    border-radius: 5px;
+    margin-left: 5vw;
+}
+
+.search button {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+/*Header*/
+
+
+/*Main*/
+
+.container {
+    height: calc(100vh - 17.5vh);
+}
+
+
+
+
+
+
+
+
+
+/*Main*/

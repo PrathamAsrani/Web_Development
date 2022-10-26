@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fuzzy+Bubbles&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 12vh;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Footer*/
+
+
+
+
+/*Header*/
+header {
+    background-color: #2874f0;
+    /*Height attribute is placed in ul bcz to make the content align in center, header automatically gets the height of ul*/
+    border: 2px solid #626163;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2em;
+
+}
+
+
+
+nav ul li {
+    list-style: none;
+    padding: 0 1vw;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+nav ul li :hover {
+    color: #243B5E;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+nav ul {
+    height: 5vh;
+    /*Height attribute is placed in ul bcz to make the content align in center, header automatically gets the height of ul*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 2vw;
+
+}
+
+
+
+/*Header*/
+
+/*Main*/
+
+.container img{
+    margin: auto;
+}
+
+
+
+/*Main*/

@@ -1,0 +1,17 @@
+Des : Create a e-commerce website using using medis queries to make it responsive.
+
+files : 
+index.html
+
+folder:
+	1. Js - 
+		script.js
+	2. CSS-
+		style.css - system units (e.g. 	header, footer, main, etc) going to define in it
+		utilities.css - id's and classes going to define in it
+	3. static-
+		used to save images and respective linkages
+
+Google fonts : 
+	1. Link (covers in Html (head))
+	2. Import (going to add in style.css)
