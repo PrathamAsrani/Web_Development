@@ -1,0 +1,8 @@
+Create a new react app - https://reactjs.org/docs/create-a-new-react-app.html
+We can crreate the react js app through code also without using any package but it is not optimal we use a package called create react app to create a react app basic folder structure
+// code : 
+npx create-react-app my-app // if you want to use a package onetime without even installing it npx is used
+cd my-app
+npm start
+
+// npm is a package manager : npm install -g create-react-app // -g : global 
